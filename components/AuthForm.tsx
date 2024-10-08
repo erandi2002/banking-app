@@ -78,9 +78,7 @@ const AuthForm = ({ type }: { type: string }) => {
                 name="email"
                 render={({ field }) => (
                   <div className="form-item">
-                    <FormLabel className="form-label">
-                      Email
-                    </FormLabel>
+                    <FormLabel className="form-label">Email</FormLabel>
                     <div className="flex w-full flex-col ">
                       <FormControl>
                         <Input
@@ -90,7 +88,7 @@ const AuthForm = ({ type }: { type: string }) => {
                         />
                       </FormControl>
 
-                      <FormMessage className="form-message mt-2"/>
+                      <FormMessage className="form-message mt-2" />
                     </div>
                   </div>
                 )}
